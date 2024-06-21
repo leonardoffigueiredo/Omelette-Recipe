@@ -1,0 +1,92 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    color: #4a4a4a;
+}
+
+main {
+    background-color: #FFFFFF;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 18px;
+}
+
+.title-description {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.title-description p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    max-width: 600px;
+    line-height: 1.4;
+}
+
+.preparation, .ingredients, .instructions, .nutrition {
+    margin: 20px 0;
+}
+
+.preparation h3, .ingredients h2, .instructions h2, .nutrition h2 {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 -20px;
+    padding: 10px 20px;
+}
+
+ul, ol {
+    margin: 10px 0 10px 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+strong {
+    color: #ff6347;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.nutrition th, .nutrition td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition th {
+    font-weight: normal;
+    color: #8a4b26;
+}
+
+.nutrition td {
+    font-weight: bold;
+    color: #8a4b26;
+}
